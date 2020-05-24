@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "972862529284",
+    "firebase_url": "https://tyba-front-eslava.firebaseio.com",
+    "project_id": "tyba-front-eslava",
+    "storage_bucket": "tyba-front-eslava.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:972862529284:android:93b3a6833109cb2fb23a51",
+        "android_client_info": {
+          "package_name": "com.example.custom1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "972862529284-dqg6kku9igi696l9mdqo16t42oj8rbbs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBI9XnekYUNgYu2Os0yL52tEpi82rdl2EU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "972862529284-dqg6kku9igi696l9mdqo16t42oj8rbbs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

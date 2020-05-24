@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="314" height="212" viewBox="0 0 314 212">
+    <defs>
+        <linearGradient id="prefix__c" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#F3CC03"/>
+            <stop offset="100%" stop-color="#F9AA30"/>
+        </linearGradient>
+        <linearGradient id="prefix__f" x1="100%" x2="0%" y1="50%" y2="50%">
+            <stop offset="0%" stop-color="#F3CC03"/>
+            <stop offset="100%" stop-color="#9AA739"/>
+        </linearGradient>
+        <filter id="prefix__a" width="105.7%" height="105%" x="-3.7%" y="-2.1%" filterUnits="objectBoundingBox">
+            <feOffset dx="-4" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="4"/>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.311679121 0 0 0 0 0.311679121 0 0 0 0 0.311679121 0 0 0 0.0820858829 0"/>
+        </filter>
+        <filter id="prefix__d" width="103.8%" height="103.9%" x="-.9%" y="-1.5%" filterUnits="objectBoundingBox">
+            <feOffset dx="4" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.311679121 0 0 0 0 0.311679121 0 0 0 0 0.311679121 0 0 0 0.0820858829 0"/>
+        </filter>
+        <path id="prefix__b" d="M112.686 58.638c-17.37 20.926-31.912 48.074-38.132 79.753-10.239 52.153 3.185 107.934 20.676 155.768 36.052 98.575 90.493 182.517 155.828 240.263 9.701 8.572 19.727 16.637 30.55 21.543 14.93 6.766 30.802 7.272 46.428 7.727 20.02.578 40.325 1.114 59.74-6.074 18.24-6.749 35.029-20.095 50.886-34.939 47.528-44.485 89.662-106.197 109.014-183.853 19.35-77.657 12.14-172.456-27.06-231.89-20.836-31.59-48.902-51.293-77.846-62.72-33.88-13.376-67.827-13.794-102.366-18.661C300.756 19.96 264.413-2.066 223.829.157c-40.036 2.193-80.185 21.188-111.143 58.48z"/>
+        <path id="prefix__e" d="M36.465 121.21C21.27 136.276 8.549 155.819 3.109 178.623c-8.956 37.543 2.785 77.697 18.086 112.131 31.536 70.96 79.158 131.386 136.31 172.955 8.485 6.17 17.255 11.976 26.722 15.508 13.061 4.87 26.944 5.235 40.614 5.563 17.512.416 35.273.801 52.257-4.373 15.955-4.858 30.64-14.466 44.512-25.151 41.574-32.023 78.43-76.447 95.36-132.349 16.925-55.901 10.619-124.143-23.67-166.927-18.228-22.74-42.778-36.924-68.097-45.15-29.636-9.629-59.33-9.93-89.544-13.433-34.682-4.027-66.473-19.883-101.973-18.283-35.021 1.579-70.141 15.252-97.221 42.098z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd" transform="translate(-1 -362)">
+        <use fill="#000" filter="url(#prefix__a)" xlink:href="#prefix__b"/>
+        <use fill="url(#prefix__c)" xlink:href="#prefix__b"/>
+        <g transform="rotate(180 213 282)">
+            <use fill="#000" filter="url(#prefix__d)" xlink:href="#prefix__e"/>
+            <use fill="url(#prefix__f)" fill-opacity=".9" xlink:href="#prefix__e"/>
+        </g>
+    </g>
+</svg>
