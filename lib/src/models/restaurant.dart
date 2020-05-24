@@ -161,7 +161,7 @@ class RestaurantRestaurant {
         mezzoProvider: mezzoProviderValues.map[json['mezzo_provider']],
         isBookFormWebView: json['is_book_form_web_view'],
         bookFormWebViewUrl: json['book_form_web_view_url'],
-        bookAgainUrl: json['book_again_url'] == null ? null : json['book_again_url'],
+        bookAgainUrl: json['book_again_url'],
         thumb: json['thumb'],
         userRating: UserRating.fromJson(json['user_rating']),
         allReviewsCount: json['all_reviews_count'],
@@ -182,8 +182,8 @@ class RestaurantRestaurant {
         allReviews: AllReviews.fromJson(json['all_reviews']),
         establishment: List<String>.from(json['establishment'].map((x) => x)),
         establishmentTypes: List<dynamic>.from(json['establishment_types'].map((x) => x)),
-        medioProvider: json['medio_provider'] == null ? null : json['medio_provider'],
-        bookUrl: json['book_url'] == null ? null : json['book_url'],
+        medioProvider: json['medio_provider'],
+        bookUrl: json['book_url'],
     );
 
     Map<String, dynamic> toJson() => {
@@ -206,7 +206,7 @@ class RestaurantRestaurant {
         'mezzo_provider': mezzoProviderValues.reverse[mezzoProvider],
         'is_book_form_web_view': isBookFormWebView,
         'book_form_web_view_url': bookFormWebViewUrl,
-        'book_again_url': bookAgainUrl == null ? null : bookAgainUrl,
+        'book_again_url': bookAgainUrl,
         'thumb': thumb,
         'user_rating': userRating.toJson(),
         'all_reviews_count': allReviewsCount,
@@ -227,8 +227,8 @@ class RestaurantRestaurant {
         'all_reviews': allReviews.toJson(),
         'establishment': List<dynamic>.from(establishment.map((x) => x)),
         'establishment_types': List<dynamic>.from(establishmentTypes.map((x) => x)),
-        'medio_provider': medioProvider == null ? null : medioProvider,
-        'book_url': bookUrl == null ? null : bookUrl,
+        'medio_provider': medioProvider,
+        'book_url': bookUrl,
     };
 }
 
@@ -427,9 +427,9 @@ class User {
         profileUrl: json['profile_url'],
         profileImage: json['profile_image'],
         profileDeeplink: json['profile_deeplink'],
-        zomatoHandle: json['zomato_handle'] == null ? null : json['zomato_handle'],
+        zomatoHandle: json['zomato_handle'],
         foodieLevel: json['foodie_level'] == null ? null : foodieLevelValues.map[json['foodie_level']],
-        foodieLevelNum: json['foodie_level_num'] == null ? null : json['foodie_level_num'],
+        foodieLevelNum: json['foodie_level_num'],
     );
 
     Map<String, dynamic> toJson() => {
@@ -438,9 +438,9 @@ class User {
         'profile_url': profileUrl,
         'profile_image': profileImage,
         'profile_deeplink': profileDeeplink,
-        'zomato_handle': zomatoHandle == null ? null : zomatoHandle,
+        'zomato_handle': zomatoHandle,
         'foodie_level': foodieLevel == null ? null : foodieLevelValues.reverse[foodieLevel],
-        'foodie_level_num': foodieLevelNum == null ? null : foodieLevelNum,
+        'foodie_level_num': foodieLevelNum,
     };
 }
 

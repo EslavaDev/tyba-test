@@ -1,8 +1,5 @@
-import 'package:custom1/src/states/city.dart';
-import 'package:custom1/src/states/product.dart';
 import 'package:custom1/src/states/restaurant.dart';
 import 'package:custom1/src/ui/molecules/search.dart';
-import 'package:custom1/src/ui/organims/card-discount.dart';
 import 'package:custom1/src/ui/organims/card-product.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';

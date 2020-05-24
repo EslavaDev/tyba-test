@@ -1,5 +1,4 @@
 import 'package:custom1/src/helpers/constants.dart';
-import 'package:custom1/src/models/product.dart';
 import 'package:custom1/src/models/restaurant.dart';
 
 abstract class RestaurantBase {

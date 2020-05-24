@@ -1,7 +1,6 @@
 
 import 'package:custom1/src/models/city.dart';
 import 'package:custom1/src/repositories/city.dart';
-import 'package:custom1/src/states/restaurant.dart';
 import 'package:flutter/material.dart';
 
 class CityProvider with ChangeNotifier{
